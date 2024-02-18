@@ -1,0 +1,63 @@
+h1 {
+  font-size: 100px;
+  line-height: 120px;
+  color: #7146c9;
+  font-style: italic;
+}
+
+body {
+  height: 100vh;
+  background-color: #747778;
+}
+
+.feedback-form {
+  margin: auto;
+  padding: 24px;
+  width: calc(408px - 24px - 24px);
+  height: calc(296px - 24px -24px);
+  border: 0px solid white;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.feedback-form label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font: 400;
+  line-height: 2;
+}
+.feedback-form input[name='email'] {
+  width: 346.45px;
+  height: 36.45px;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font: 400;
+}
+.feedback-form input[type='email'] {
+  padding-left: 10px;
+}
+
+.feedback-form textarea[name='message'] {
+  padding: 10px;
+  resize: none;
+  font-family: 'Montserrat', sans-serif;
+  width: 338.23px;
+  height: 58.23px;
+  font-size: 16px;
+}
+
+button {
+  width: 95px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 8px 16px 8px 16px;
+  background-color: #4e75ff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+  color: #ffffff;
+  border: none;
+}
