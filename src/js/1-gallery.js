@@ -1,10 +1,5 @@
 `use strict`;
 
-import SimpleLightbox from "simplelightbox";
-
-import "simplelightbox/dist/simple-lightbox.min.css";
-
-
 const images = [
   {
     preview:
@@ -88,6 +83,11 @@ images.forEach((image) => {
 });
 
 galleryList.innerHTML = allImages;
+
+
+import SimpleLightbox from "simplelightbox";
+
+import "simplelightbox/dist/simple-lightbox.min.css";
 
  const lightbox = new SimpleLightbox('.gallery a',  { 
     captionDelay: 250,
